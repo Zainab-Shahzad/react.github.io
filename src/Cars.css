@@ -1,0 +1,233 @@
+.Cars-content{
+  margin: 100px 100px 100px 100px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.type{
+    color:#24272c;
+    font-size: 30px;
+    font-weight: bold;
+}
+.view{
+    height: 40px;
+    width: 100px;
+    color: #24272c;
+    font-size: 14px;
+    border: 1px solid #ededed;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.view:hover{
+    background-color: #ff7101;
+    color: #ffffff;
+}
+.Cars-tabs{
+    color:#000000;
+    font-size: 16px;
+    margin-top: 60px;
+    font-weight: bold;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #ededed;
+}
+.Car-tab{
+    margin-right: 20px;
+}
+.Car-tab:focus{
+    color:orange ;
+}
+
+.listing-row{
+   padding-top: 30px;
+    display: flex;
+    
+}
+.item{
+    width: 25%;
+    height: 500px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 1px solid #ededed;
+    border-radius: 12px;
+}
+.item-pic{
+    position: relative;
+}
+.featured,.year{
+    background-color: #ff7101;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    border-radius: 20px;
+    top:15px;
+    border: none;
+}
+.featured{
+    left: 15px;
+    height: 25px;
+    width: 75px;
+}
+.year{
+    right: 15px;
+    height: 25px;
+    width: 55px;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+   border-top-left-radius: 12px;
+   border-top-right-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0); /* Initially transparent */
+    transition: background 0.3s ease;
+    transition: background-color 1s ease, color 1s ease;
+    transition: opacity 0.5s ease, transform 0.5s ease; 
+    opacity: 0; /* Initially hidden */
+  }
+.overlay.hovered {
+    background: rgba(0, 0, 0, 0.4); /* Dark overlay */
+    opacity: 1; /* Show overlay */
+  transform: translateY(0); /* Move into place */
+  }
+  
+  .img-btn1,.img-btn2 {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 40%;
+    font-size: 16px;
+    font-weight: lighter;
+    background-color: #fff;
+    color: #ff7101;
+    border: none;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+    transform: translateY(10px);
+  }
+  .img-btn1{
+    left: 103px;
+  }
+  .img-btn2{
+    right:103px;
+  }
+  .img-btn1:hover,.img-btn2:hover{
+    background-color: #ff7101;
+    color: #ffffff;
+  }
+.item-info{
+    padding:15px;
+   
+}
+.item-type{
+    color: #ff7101;
+    font-size: 14px;
+    font-weight: bold;
+}
+.item-name{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 900px;
+    margin-top: 15px;
+}
+.description{
+    color:#696665;
+    font-size: 14px;
+    display: flex;
+    margin-top: 15px;
+    font-weight: 900px;
+}
+.km,.auto,.petrol{
+    margin-right: 15px;
+}
+.price{
+    margin-top: 15px;
+    color:#ff7101;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ededed;
+   
+  }
+  .team-mate-info{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+ .team-mate{
+  
+    height: 70px;
+    color: #24272c;
+    display: flex;
+    align-items: center;
+ }
+ .team-mate-name{
+    font-size: 14px;
+    margin-left: 5px;
+    font-weight: bold;
+ }
+ .hide-content{
+  display: none;
+ }
+ .view-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 80px;
+    margin-top: 10px;
+    background-color: #ffffff;
+    color: #24272c;
+    font-size: 15px;
+    border: 1px solid #24272c;
+    border-radius: 12px;
+ }
+ .view-btn:hover{
+    background-color: #24272c;
+    color: #ffffff;
+ }
+ h2{
+    margin-top: 100px;
+    color: #24272c;
+    font-size: 30px;
+ }
+ .boxes{
+  display: flex;
+ }
+.box{
+  height: 150px;
+  width: 150px;
+  margin-top: 70px;
+  margin-right: 30px;
+  padding: 24px 25px 23px;
+  border-radius: 12px;
+  border:1px solid #ededed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.6s ease, box-shadow 0.6s ;
+}
+.box:hover{
+  transform: translateZ(0);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+.box-name{
+  margin-top: 20px;
+  color: #24272c;
+  font-size:16px;
+  font-weight: bold;
+}
+.box-name:hover{
+  color: #ff7101;
+}
+.number{
+  color:#5c6368;
+  font-size:12px;
+  margin-top: 5px;
+}

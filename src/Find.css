@@ -1,0 +1,104 @@
+.find-cars{
+    padding: 0px 120px 100px 100px;
+    display: flex;
+}
+.find-car{
+    width: 630px;
+    height: 180px;
+    padding: 30px;
+    margin-left: 30px;
+    background-color: #ff7101;
+    border-radius: 14px;
+}
+.find-content{
+    display: flex;
+}
+.content-description{
+  padding: 10px 10px 20px 20px;
+}
+.content-heading{
+    color:#ffffff;
+    font-size: 24px;
+}
+.content-para{
+    color:#ffffff;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.find-car-btn{
+    height: 50px;
+    width: 200px;
+    font-size: 16px;
+    margin-top: 20px;
+    color: #ff7101;
+    font-weight: bold;
+    background-color: #ffffff;
+    border-radius: 14px;
+    border: none;
+    transition: background-color 1s ease, color 1s ease;;
+}
+.find-car-btn:hover{
+    color: #ffffff;
+    background-color: #24272c;
+}
+.find-car-btn2{
+    height: 50px;
+    width: 200px;
+    font-size: 16px;
+    margin-top: 20px;
+    background-color: #ff7101;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 14px;
+    border: none;
+    transition: transform 6s cubic-bezier(0.4, 0.2, 0.2, 1);
+}
+.find-car-btn2:hover{
+    background-color: #ffffff;
+    color: #ff7101;
+}
+.find-image
+{
+    transition: background-color 1s ease, color 1s ease;;
+}
+.find-image:hover{
+    transform: scale(1.1);
+    z-index: 10;
+}
+.search-heading{
+    margin-top: 0px;
+    margin-left: 120px;
+}
+.search-options{
+    margin: 40px 100px 100px 80px;
+    display: flex;
+}
+.search-option{
+    height: 90px;
+    width: 120px;
+    margin-left: 30px;
+    border: 1px solid #ededed;
+    border-radius: 12px;
+    padding: 23px 10px 24px;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   transition: transform 0.6s ease, box-shadow 0.6s ;
+}
+.search-option:hover{
+    transform: translateZ(0);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+.option-name{
+    color: #24272c;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 20px 0px 5px;
+}
+.option-name:hover{
+    color: #ff7101;
+}
+.count{
+    font-size: 12px;
+    color: #5c6368;
+}
